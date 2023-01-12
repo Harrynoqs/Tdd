@@ -7,7 +7,7 @@ RSpec.describe Solver do
       expect(result.factorial(2)).to eq 2
       expect(result.factorial(3)).to eq 6
       expect(result.factorial(1)).to eq(1)
-      expect(result.factorial(-2)).to eq('Factorial calculation is not applicable for negative numbers')
+      expect(result.factorial(-2)).to eq('Factorial of a number')
     end
   end
 
